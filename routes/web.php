@@ -6,7 +6,7 @@ use App\Http\Controllers\TicketController;
 use App\Http\Controllers\ReplyController;
 
 
-// Supprimer toutes les routes qui pointent vers React
+
 Route::get('/', function () {
     return response()->json([
         'message' => 'Bienvenue sur l\'API Ticket System',
